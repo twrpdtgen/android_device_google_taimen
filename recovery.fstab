@@ -1,0 +1,7 @@
+/             ext4     /dev/block/platform/soc/1da4000.ufshc/by-name/system       flags=display=;slotselect
+/metadata     ext4     /dev/block/platform/soc/1da4000.ufshc/by-name/metadata     flags=display=metadata
+/data         ext4     /dev/block/platform/soc/1da4000.ufshc/by-name/userdata     flags=display=data
+/misc         emmc     /dev/block/platform/soc/1da4000.ufshc/by-name/misc         flags=display=misc
+/firmware     vfat     /dev/block/platform/soc/1da4000.ufshc/by-name/modem        flags=display=firmware;slotselect
+auto          vfat     /devices/soc/a800000.ssusb/a800000.dwc3*                   flags=display=auto
+none          swap     /dev/block/zram0                                           flags=display=none
